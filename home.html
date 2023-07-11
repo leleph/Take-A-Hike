@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=""width=device-width, initial-scale="1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <title>HTML Default doc</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="media/">
+</head>
+
+<style>
+  .search-bar {
+    width: 350px;
+    height: 60px;
+    background-color: #08502599;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0; 
+    align-items: center;
+  }
+  .search-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+  }
+  .search-words {
+    display: flex;
+    justify-content: flex-start;
+  }
+  body {
+    background-image: url(media/the_cold_cat_cartoon_artstyle_scenic_hiking_trail_377b5eac-3656-4d6d-bfbd-124a11032417.png);
+  }
+
+  card body {
+    color: #885340;
+    margin: 1rem;
+  }
+  .row {
+  display: flex;
+  justify-content: center;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    padding: 1.5rem;
+    margin: .5rem 2rem .5rem 2rem;
+    border-radius: 20px;
+    background-color: #885340CC;
+  }
+  .card-header {
+    height: 160px;
+  }
+  .card-body {
+    height: 80px;
+  }
+  .card img {
+    border-radius: 25px;
+  }
+</style>
+
+<header>
+  <div class="search-bar"> 
+    <div class="search-items"><i class="fas fa-search"></i><h3 class="search-words"> Find Trails</h3></div>
+    <div class="search-items"></div><i class="fa-solid fa-filter"></i></div>
+  </div>
+</header>
+
+<body>
+  <div class="container-xxl">
+    <h1><strong>47 trails match your settings</strong></h1>
+    <div class="row">
+      <div class="col-sm-3 d-flex justify-content-space-between">
+        <div class="card h-100">
+          <img src="media/castle-trail-mount-falcon-park.jpg" class="img-fluid" alt="Columbia beans">
+          <h2 class="card-desc d-flex align-items-center justify-content-center">
+            Mount Falcon Park Trail
+          </h2>
+          <ul style="list-style: none;">
+            <li>Route Difficulty: 2/5</li>
+            <li>Length: 2.5 miles</li>
+            <li>Hike Duration: 46 Minutes</li>
+            <li>Challenges: <img src="media/rain.png" height="24px"> <img src="media/terrain_icon_138106.png" height="25px">
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-3 d-flex justify-content-space-between">
+        <div class="card h-100">
+          <img src="media/maxwellfalls.jpg" class="img-fluid" alt="Columbia beans">
+          <h2 class="card-desc d-flex align-items-center justify-content-center">
+            Maxwell Falls Trail
+          </h2>
+          <ul style="list-style: none;">
+            <li>Route Difficulty: 3/5</li>
+            <li>Length: 4.5 miles</li>
+            <li>Hike Duration: 2 hours and 46 Minutes</li>
+            <li>Challenges: <img src="media/mosquito-icon.png" height="24px">
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-3 d-flex justify-content-space-between">
+        <div class="card h-100">
+          <img src="media/red-rocks-trading-post-trail-00-header1.jpg" class="img-fluid" alt="Columbia beans">
+          <h2 class="card-desc d-flex align-items-center justify-content-center">
+            Red Rock Trails
+          </h2>
+          <ul style="list-style: none;">
+            <li>Route Difficulty: 3/5</li>
+            <li>Length: 8.5 miles</li>
+            <li>Hike Duration: 6 hours and 38 Minutes</li>
+            <li>Challenges: <img src="media/terrain_icon_138106.png" height="24px"> <img src="media/sunny-3-128.png" height="24px">
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-3 d-flex justify-content-space-between">
+        <div class="card h-100">
+          <img src="media/nugget trails.webp" class="img-fluid" alt="Columbia beans">
+          <h2 class="card-desc d-flex align-items-center justify-content-center">
+            Nugget Falls Trail
+          </h2>
+          <ul style="list-style: none;">
+            <li>Route Difficulty: 5/5</li>
+            <li>Length: 42.5 miles</li>
+            <li>Hike Duration: 32 Hours</li>
+            <li>Challenges: <img src="media/terrain_icon_138106.png" height="24px"> <img src="media/sunny-3-128.png" height="24px"> <img src="media/rain.png" height="24px"> <img src="media/mosquito-icon.png" height="24px"> 
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-3 d-flex justify-content-space-between">
+        <div class="card h-100">
+          <img src="media/16-great-smoky-mountains-national-park-BESTHIKE0407-dbea3e61e6e74965a11df4b655dd4f3c.webp" class="img-fluid" alt="Columbia beans">
+          <h2 class="card-desc d-flex align-items-center justify-content-center">
+            Charles Bunion Hike
+          </h2>
+          <ul style="list-style: none;">
+            <li>Route Difficulty: 4/5</li>
+            <li>Length: 13.1 miles</li>
+            <li>Hike Duration: 13 hours and 46 Minutes</li>
+            <li>Challenges: <img src="media/terrain_icon_138106.png" height="24px"> <img src="media/mosquito-icon.png" height="24px">
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+<footer class="border-secondary border-top border-5 text-center py-5 mt-5 bg-primary text-white">
+
+</footer>
